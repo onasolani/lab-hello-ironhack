@@ -1,0 +1,57 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 300px;
+    color: white;
+}
+
+.text h1{
+    font-size: 50px;
+    line-height: 48px;
+}
+
+.text p{
+    margin-bottom: 60px;
+    width: 240px;
+}
+
+.text button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.box{
+    padding: 30px 80px 40px 80px;
+    background: #0d163f url("/images/react-logo.svg");
+    margin-bottom: 60px;
+}
+
+.featured-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-box{
+    margin: 10px;
+    width: 250px;
+}
